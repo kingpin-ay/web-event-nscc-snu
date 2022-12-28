@@ -1,0 +1,111 @@
+header:before {
+  animation: fade-slide-down 1s ease-out forwards;
+}
+
+.logo {
+  opacity: 0;
+  animation: fade-slide-down 1s cubic-bezier(0, 0.64, 0, 0.99) forwards;
+  animation-delay: 1s;
+}
+
+.nav-list > ul > .h {
+  opacity: 0;
+  animation: fade-slide-down 1s cubic-bezier(0, 0.64, 0, 0.99) forwards;
+  animation-delay: 1.2s;
+}
+.nav-list > ul > .a {
+  opacity: 0;
+  animation: fade-slide-down 1s cubic-bezier(0, 0.64, 0, 0.99) forwards;
+  animation-delay: 1.4s;
+}
+.nav-list > ul > .m {
+  opacity: 0;
+  animation: fade-slide-down 1s cubic-bezier(0, 0.64, 0, 0.99) forwards;
+  animation-delay: 1.6s;
+}
+.nav-list > ul > .ab {
+  opacity: 0;
+  animation: fade-slide-down 1s cubic-bezier(0, 0.64, 0, 0.99) forwards;
+  animation-delay: 1.8s;
+}
+
+.animate-pop-in {
+  opacity: 0;
+  animation: pop-in 0.6s cubic-bezier(0, 0.81, 0.23, 1.2) forwards;
+}
+
+.starter {
+  animation-delay: 2s;
+}
+
+.header {
+    animation-delay: 2.2s;
+}
+
+.description {
+    animation-delay: 2.4s;
+}
+
+.watch-now {
+    animation-delay: 2.5s;
+}
+
+
+
+
+.fa-facebook{
+    animation-delay: 2s;
+    
+}
+
+.fa-instagram{
+    
+    animation-delay: 2.2s;
+}
+
+.fa-twitter{
+    animation-delay: 2.4s;
+    
+}
+
+.fa-github{
+    animation-delay: 2.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
